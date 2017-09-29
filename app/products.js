@@ -1,5 +1,5 @@
 var regFlavors = [
-    [ "Chocolate","Loved by kids of all ages","2.00" ],
+    [ "Chocolate","Loved by kids of all ages","2.00","images/chocolate.png" ],
     [ "Vanilla","Elegant and understated","2.00" ],
     [ "Strawberry","It's healthy because it has fruit!","2.00" ]
 ];
