@@ -1,7 +1,7 @@
 var regFlavors = [
     [ "Chocolate","Loved by kids of all ages","2.00" ],
     [ "Vanilla","Elegant and understated","2.00" ],
-    [ "Chocolate Chip Cookie Dough","The best ice cream ever","2.00" ]
+    [ "Strawberry","It's healthy because it has fruit!","2.00" ]
 ];
 
 var seasonalFlavors = [

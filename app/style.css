@@ -3,12 +3,13 @@
 }*/
 
 body {
-	background-color: #c2f2d0;
+	background-color: #fff;
 	margin: 0;
 }
 
 header {
-	background-color: #9ad1aa;
+	color: white;
+	background-color: #aee2ce;
 	padding: 40px 24px;
 }
 
@@ -19,12 +20,14 @@ h1 {
 }
 
 h2 {
+	color: #222;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	text-align: center;
 }
 
 h3 {
+	color: #222;
 	font-family: 'Roboto', serif;
 	font-size: 20px;
 	font-weight: 400;
@@ -32,6 +35,7 @@ h3 {
 }
 
 h4 {
+	color: #222;
 	font-family: 'Roboto', serif;
 	font-size: 14px;
 	font-weight: 700;
@@ -40,6 +44,7 @@ h4 {
 }
 
 p {
+	color: #222;
 	font-family: 'Roboto', serif;
 	font-size: 14px;
 	font-weight: 400;
@@ -65,5 +70,6 @@ th {
 }
 
 #subheader {
-	background-color: #9ad1aa
+	background-color: #f9c4d8;
+	color: white;
 }
