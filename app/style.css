@@ -1,0 +1,19 @@
+body {
+	background-color: #c2f2d0;
+}
+
+header {
+	margin:	auto;
+	padding: 40px 24px;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
