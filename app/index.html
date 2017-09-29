@@ -4,7 +4,7 @@
 	<title>Ice Cream Menu</title>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700|Lobster" rel="stylesheet">
 </head>
 <body>
 
@@ -13,81 +13,87 @@
 	</header>
 
 	<div class="menu">
-		<table>
-			<tr>
-				<th>
-					<h2 class="menu-cat ice-cream" id="reg-flavors">Regular Ice Cream Flavors</h2><h3>$2.00</h3>
-				</th>
-				<th>
-					<h2 class="menu-cat ice-cream" id="seasonal-flavors">Seasonal Ice Cream Flavors</h2><h3>$3.00</h3>
-				</th>
-			<tr>
-				<td>
-					<h4><span id="regFlavor-1"></span></h4><p><span id="desc1"></span></p>
-				</td>
-				<td>
-					<h4><span id="seasonalFlavor-1"></span></h4><p><span id="desc4"></span></p>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<h4><span id="regFlavor-2"></span></h4><p><span id="desc2"></span></p>
-				</td>
-				<td>
-					<h4><span id="seasonalFlavor-2"></span></h4><p><span id="desc5"></span></p>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<h4><span id="regFlavor-3"></span></h4><p><span id="desc3"></span></p>
-				</td>
-				<td></td>
-			</tr>
-		</table>
+
+		<div>
+			
+			<h2 id="subheader">Ice Cream Flavors</h2>
+
+			<table>
+				<tr>
+					<th>
+						<h2 class="menu-cat ice-cream" id="reg-flavors">Regular Ice Cream Flavors</h2><h3>$2.00</h3>
+					</th>
+					<th>
+						<h2 class="menu-cat ice-cream" id="seasonal-flavors">Seasonal Ice Cream Flavors</h2><h3>$3.00</h3>
+					</th>
+				<tr>
+					<td>
+						<img src="images/chocolate.png" width="24px"><h4><span id="regFlavor1"></span></h4></h4><p><span id="desc1"></span></p>
+					</td>
+					<td>
+						<img src="images/pumpkin.png" width="24px"><h4><span id="seasonalFlavor1"></span></h4><p><span id="desc4"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/vanilla.png" width="24px"><h4><span id="regFlavor2"></span></h4><p><span id="desc2"></span></p>
+					</td>
+					<td>
+						<img src="images/apple.png" width="24px"><h4><span id="seasonalFlavor2"></span></h4><p><span id="desc5"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/strawberry.png" width="24px"><h4><span id="regFlavor3"></span></h4><p><span id="desc3"></span></p>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+		
+		</div>
 
 		<br>
 		<br>
 
-		<table>
-			<tr>
-				<th colspan="2"><h2>Extras</h2></th>
-			</tr>
-		</table>
+		<div>
+			<h2 id="subheader">Extras</h2>
 
-		<table>
-			<tr>
-				<th>
-					<h2 class="menu-cat serving-opts">Serving Options</h2>
-				</th>
-				<th>
-					<h2 class="menu-cat toppings">Toppings</h2>
-				</th>
-			</tr>
-			<tr>
-				<td>
-					<h4><span id="serve-1"></span></h4><p><span id="desc6"></span></p><p> $<span id="servePrice1"></span></p>
-				</td>
-				<td>
-					<h4><span id="top-1"></span></h4><p><span id="desc9"></span></p><p> $<span id="topPrice1"> </span></p>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<h4><span id="serve-2"></span></h4><p><span id="desc7"></span></p><p> $<span id="servePrice2"> </span></p>
-				</td>
-				<td>
-					<h4><span id="top-2"></span></h4><p><span id="desc10"></span></p><p> $<span id="topPrice2"> </span></p>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<h4><span id="serve-3"></span></h4><p><span id="desc8"></span></p><p> $<span id="servePrice3"> </span></p>
-				</td>
-				<td>
-					<h4><span id="top-3"></span></h4><p><span id="desc11"></span></p><p> $<span id="topPrice3"> </span></p>
-				</td>
-			</tr>
-		</table>
+			<table>
+				<tr>
+					<th>
+						<h2 class="menu-cat serving-opts">Serving Options</h2>
+					</th>
+					<th>
+						<h2 class="menu-cat toppings">Toppings</h2>
+					</th>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/spoon.png" width="36px"><h4><span id="serve1"></span></h4><p><span id="desc6"></span></p><p><span id="servePrice1"></span></p>
+					</td>
+					<td>
+						<img src="images/heart.png" width="24px"><h4><span id="top1"></span></h4><p><span id="desc9"></span></p><p> $<span id="topPrice1"> </span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/cone.png" width="24px"><h4><span id="serve2"></span></h4><p><span id="desc7"></span></p><p> $<span id="servePrice2"> </span></p>
+					</td>
+					<td>
+						<img src="images/heart.png" width="24px"><h4><span id="top2"></span></h4><p><span id="desc10"></span></p><p> $<span id="topPrice2"> </span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/waffle-cone.png" width="24px"><h4><span id="serve3"></span></h4><p><span id="desc8"></span></p><p> $<span id="servePrice3"> </span></p>
+					</td>
+					<td>
+						<img src="images/heart.png" width="24px"><h4><span id="top3"></span></h4><p><span id="desc11"></span></p><p> $<span id="topPrice3"> </span></p>
+					</td>
+				</tr>
+			</table>
+
+		</div>
 
 	</div>
 
