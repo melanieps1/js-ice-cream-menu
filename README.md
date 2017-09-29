@@ -29,3 +29,7 @@ Relevant files:
 * app/main2.js
 * app/products.js
 * app/style.css
+
+### View on Heroku
+
+https://ice-cream-menu-melanie.herokuapp.com/
