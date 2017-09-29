@@ -1,0 +1,27 @@
+{
+  "name": "js-ice-cream-menu",
+  "version": "1.0.0",
+  "description": "Bootcamp Project: Create a webpage that displays the menu for an ice cream shop.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "express": "^4.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+  	"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melanieps1/js-ice-cream-menu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melanieps1/js-ice-cream-menu/issues"
+  },
+  "homepage": "https://github.com/melanieps1/js-ice-cream-menu#readme"
+}
