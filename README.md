@@ -10,7 +10,7 @@ Bootcamp Project: Create a webpage that displays the menu for an ice cream shop.
 
 ## Navigating this repo
 
-There are two different approaches to the site in this repo.  Let me explain how to navigate the code:
+There are two different approaches to the project in this repo.  Let me explain how to navigate the code:
 
 ### Approach One (Static Data)
 

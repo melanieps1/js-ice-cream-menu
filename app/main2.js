@@ -7,13 +7,10 @@ var regFlavor3 = document.getElementById('regFlavor3');
 
 
 for (var i = 0; i < regFlavors.length; i++) {
-	// document.write(
-	// 	"Regular Flavor " + i + " : " +
-	// 	regFlavors[i] + "<br>");
-
 	// regFlavor1.innerHTML = regFlavors[i];
 	var flavor = regFlavors[i];
 	// console.log(flavor[0])
+	regFlavor1.innerHTML = flavor[0];
 }
 
 // for (var i = 0; i < seasonalFlavors.length; i++) {
