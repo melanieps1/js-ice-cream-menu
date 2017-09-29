@@ -24,8 +24,9 @@ h2 {
 	text-align: center;
 }
 
-p td {
+td {
 	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 }
 
 .menu {
